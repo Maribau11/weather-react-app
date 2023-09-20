@@ -14,11 +14,16 @@ export default function SearchEngine(){
         event.preventDefault();
         setCity(event.target.value);
     }
-    return(
-        <form onSubmit={handleSubmit}>
-            <input type="text" placeholder="Search a city" onChange={changeCity}/>
-            <input type="submit" value="Search"/>
-            {showInfo && <CurrentWeather/>}
-        </form>
-    )
+    return (
+      <form onSubmit={handleSubmit}>
+        <input
+          className="form-input"
+          type="text"
+          placeholder="Search a city"
+          onChange={changeCity}
+        />
+        <input className="form-input" type="submit" value="Search" />
+        <input className="form-input" type="submit" value="Current Location" />
+      </form>
+    );
 }

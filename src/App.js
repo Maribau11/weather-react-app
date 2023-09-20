@@ -5,14 +5,19 @@ import Heading from './Heading';
 import CurrentWeather from './CurrentWeather';
 import SearchEngine from './SearchEngine';
 import Forecast from './Forecast';
+
 function App() {
   return (
     <div className="App">
-      <Heading/>
-      <SearchEngine/>
-      <CurrentWeather/>
-      <Forecast/>
-
+      <div className="card">
+        <div className="card-body">
+          <Heading/>
+          <SearchEngine/>
+          <CurrentWeather/>
+          <Forecast/>
+        </div>
+      </div>
+    <p className="footer">Open-source code. Coded by Mariam Baulackey</p>
     </div>
   );
 }
