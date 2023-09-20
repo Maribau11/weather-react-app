@@ -1,5 +1,6 @@
 
 import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Heading from './Heading';
 import CurrentWeather from './CurrentWeather';
 import SearchEngine from './SearchEngine';
