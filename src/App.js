@@ -11,13 +11,15 @@ function App() {
     <div className="App">
       <div className="card">
         <div className="card-body">
-          <Heading/>
-          <SearchEngine/>
-          <CurrentWeather/>
-          <Forecast/>
+          <Heading />
+          <SearchEngine />
+          <CurrentWeather />
+          <Forecast />
         </div>
       </div>
-    <p className="footer">Open-source code. Coded by Mariam Baulackey</p>
+      <p className="footer">
+        <a href="#" target='_blank'>Open-source</a> code. Coded by Mariam Baulackey
+      </p>
     </div>
   );
 }

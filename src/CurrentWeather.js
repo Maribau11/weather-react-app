@@ -1,4 +1,4 @@
-import React,{useState} from "react"
+import React from "react"
 import Weather from "./Weather";
 
 export default function CurrentWeather(){
@@ -9,15 +9,15 @@ export default function CurrentWeather(){
           <div>
             <span className="currentTemp">15</span>
             <span className="degree-C">
-              <a>°C</a>
+              <button>°C</button>
             </span>
             <span className="degree-f">
-              <a>°F</a>
+              <button>°F</button>
             </span>
           </div>
         </div>
         <div className="col">
-          <Weather/>
+          <Weather />
         </div>
       </div>
     );
