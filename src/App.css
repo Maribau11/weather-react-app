@@ -36,3 +36,7 @@ form{
 .footer{
   font-size: 14px;
 }
+button{
+  border: none;
+  background: transparent;
+}
