@@ -1,13 +1,13 @@
 import React, { useState }from "react"
 import CurrentWeather from "./CurrentWeather";
+import Heading from "./Heading";
 
 export default function SearchEngine(){
     let [city, setCity]= useState("");
-    let [showInfo, setShowInfo]=useState(false);
 
     function handleSubmit(event){
         event.preventDefault();
-        setShowInfo(true);
+        <Heading cityName={city}/>
     }
 
     function changeCity(event){
