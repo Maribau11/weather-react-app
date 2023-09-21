@@ -18,7 +18,7 @@ function App() {
         </div>
       </div>
       <p className="footer">
-        <a href="#" target='_blank'>Open-source</a> code. Coded by Mariam Baulackey
+        <a href="https://github.com/Maribau11/weather-react-app" target="_blank" rel="noreferrer">Open-source</a> code. Coded by Mariam Baulackey
       </p>
     </div>
   );
