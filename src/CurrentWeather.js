@@ -1,11 +1,13 @@
-import React from "react"
+import React,{useState} from "react"
+import Weather from "./Weather";
 
 export default function CurrentWeather(){
+
     return (
       <div className="row">
         <div className="col">
           <div>
-            <span className="currentTemp">Current Temperature</span>
+            <span className="currentTemp">15</span>
             <span className="degree-C">
               <a>°C</a>
             </span>
@@ -15,10 +17,7 @@ export default function CurrentWeather(){
           </div>
         </div>
         <div className="col">
-          <p className="info">humidity</p>
-          <p className="info">wind speed</p>
-          <p className="info">High/low</p>
-          <p className="info">Precipitation</p>
+          <Weather/>
         </div>
       </div>
     );

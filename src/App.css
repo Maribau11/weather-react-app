@@ -23,11 +23,15 @@ form{
   text-align: center;
   
 }
-.info{
+.weather{
   font-size: 15px;
-  text-align: center;
+  text-align: left;
   line-height: 15px;
   padding: 2px;
+  padding-left: 150px; 
+}
+.weather li{
+  list-style: none;
 }
 .footer{
   font-size: 14px;

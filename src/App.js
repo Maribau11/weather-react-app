@@ -2,9 +2,9 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Heading from './Heading';
-import CurrentWeather from './CurrentWeather';
-import SearchEngine from './SearchEngine';
-import Forecast from './Forecast';
+import SearchEngine from "./SearchEngine";
+import CurrentWeather from "./CurrentWeather";
+import Forecast from "./Forecast";
 
 function App() {
   return (
